@@ -1,5 +1,4 @@
 import { Sparkles } from "lucide-react";
-import Link from "next/link";
 
 export function Footer() {
   return (
@@ -14,7 +13,7 @@ export function Footer() {
                   <Sparkles className="h-5 w-5 text-white" />
                 </div>
                 <span className="font-bold text-lg gradient-emerald-text">
-                  Podai
+                  Podassi
                 </span>
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -59,28 +58,28 @@ export function Footer() {
               <h3 className="font-bold mb-4 text-gray-900">Support</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link
+                  <a
                     href="#"
                     className="text-gray-600 hover:text-emerald-600 transition-colors text-sm"
                   >
                     Documentation
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="#"
                     className="text-gray-600 hover:text-emerald-600 transition-colors text-sm"
                   >
                     Contact Us
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="#"
                     className="text-gray-600 hover:text-emerald-600 transition-colors text-sm"
                   >
                     Privacy Policy
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -89,7 +88,7 @@ export function Footer() {
           {/* Bottom bar */}
           <div className="pt-8 border-t border-gray-200">
             <p className="text-center text-sm text-gray-600">
-              {new Date().getFullYear()} Podai. This is a demo project.
+              {new Date().getFullYear()} Podassi. This is a demo project.
             </p>
           </div>
         </div>

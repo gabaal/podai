@@ -105,3 +105,4 @@ export function PricingSection({ compact = false }: PricingSectionProps) {
     </section>
   );
 }
+
