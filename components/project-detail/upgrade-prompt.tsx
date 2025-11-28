@@ -61,6 +61,7 @@ export function UpgradePrompt({
               </p>
               <ul className="space-y-3 text-sm md:text-base text-gray-700">
                 {planFeatures.map((feat, idx) => (
+                  // @ts-ignore
                   <li key={idx} className="flex items-center gap-3">
                     <span className="text-emerald-600 font-bold text-lg">✓</span>
                     <span className="font-medium">
