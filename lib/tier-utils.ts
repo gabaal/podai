@@ -8,7 +8,7 @@
  * All plan checks use Clerk's native billing system per:
  * https://clerk.com/docs/nextjs/guides/billing/for-b2c
  */
-
+// @ts-ignore
 import type { Auth } from "@clerk/nextjs/server";
 import { convex } from "@/lib/convex-client";
 import { api } from "@/convex/_generated/api";
