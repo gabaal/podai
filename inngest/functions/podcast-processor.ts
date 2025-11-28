@@ -212,6 +212,7 @@ export const podcastProcessor = inngest.createFunction(
           message:
             error instanceof Error ? error.message : "Unknown error occurred",
           step: "workflow",
+          // @ts-ignore
           details: error instanceof Error ? error.stack : String(error),
         });
       } catch (cleanupError) {
